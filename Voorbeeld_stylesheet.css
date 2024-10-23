@@ -1,0 +1,47 @@
+/*Dit is de commentaar*/
+
+/*Volgorde van belangrijkheid eerst de inline dan internal dan external*/
+body{
+
+background-color: hotpink;
+border:red;
+border-width: 5px;
+border-style: dashed;
+
+background-image: url("Images/Jpg/patroon.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+}
+
+p{
+color: aqua;
+font-weight: bold;
+}
+
+/*elementen groeperen*/
+h1,h2,h3{
+text-align: center;
+color: peru;
+
+}
+
+.voorbeeld2{
+color: tomato;
+
+}
+
+
+
+a:link,a:visited{
+    color:green
+}
+
+
+
+a:hover{
+    color:darkkhaki
+}
+
+a:active{
+    color:blue
+}
